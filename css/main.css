@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+}
+
+.screen {
+    max-width: 1440px;
+}
+
+.header-content {
+    width: 80vw;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.courses-link {
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 1.67vw;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.header {
+    width: 100vw;
+    height: 5vw;
+    margin: 0;
+    position: fixed;
+    background-color: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.content_block {
+    width: 100%;
+}
+
+.text_content {
+    width: 40%;
+    height: 90%;
+}
+
+.header_text {
+    font-size: 100vw / 30px;
+}
+
+.text {
+    font-size: 100vw / 80px;
+}
+
+.main_content {
+    width: 80%;
+}
