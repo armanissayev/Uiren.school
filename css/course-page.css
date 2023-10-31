@@ -1,0 +1,21 @@
+.content {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.roadmap {
+    width: 25vw;
+    background-color: rgba(217, 217, 217, 0.7);
+}
+
+.content-space {
+    width: 80vw;
+}
+
+.course-content {
+    margin: auto;
+    width: 70%;
+    min-height: 100vh;
+    background-color: rgba(217, 217, 217, 0.7);
+}
