@@ -8,19 +8,39 @@ html, body {
 
 .header-content {
     width: 80vw;
+    height: 100%;
     max-width: 1440px;
     margin: auto;
+    display: flex;
 }
 
 .courses-link {
-    padding-top: auto;
-    padding-bottom: auto;
     font-size: 1.67vw;
 }
 
 .logo {
     text-align: center;
     font-size: 2.5vw;
+}
+
+.contacts {
+    text-align: right;
+    font-size: 1.67vw;
+}
+
+.header-link {
+    vertical-align: middle;
+    width: 33%;
+    margin: auto;
+}
+.header-link a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: black;
+    font-family: "Inter-Regular";
+}
+.boldLogo {
+    font-family: "Inter-Bold";
 }
 
 .header {
