@@ -5,7 +5,7 @@
 }
 
 .roadmap {
-    padding-top: 6vw;
+    padding-top: 4vw;
     width: 25vw;
     background-color: rgba(217, 217, 217, 0.1);
 }
@@ -15,8 +15,9 @@
 }
 
 .course-content {
+    padding-top: 6vw;
     margin: auto;
-    width: 70%;
+    width: 85%;
     min-height: 100vh;
     background-color: rgba(217, 217, 217, 0.1);
 }
@@ -26,10 +27,14 @@
     font-family: "Inter-SemiBold";
 }
 .topics {
+    padding-top: 2vw;
     padding-left: 1vw;
 }
 .subtopics {
     padding-left: 1vw;
+}
+.subtopics li {
+    font-size: 1.25vw;
 }
 .subtopic a {
     text-decoration: none;
@@ -40,4 +45,41 @@
 .subtopic a:hover {
     transition: 0.25s ease-out;  
     text-decoration: underline;
+}
+
+.topic-material {
+    
+    padding-left: 2vw;
+}
+.maintopic-name {
+    font-family: "Inter-SemiBold";
+    font-size: 2.3vw;
+}
+.subtopic-material {
+    padding-left: 2vw;
+}
+.subtopic-name {
+    font-family: "Inter-Light";
+    font-size: 2.3vw;
+}
+.material-header {
+    font-size: 1.8vw;
+    font-family: "Inter-Bold";
+    padding-top: 1.5vw;
+}
+.material-text {
+    font-size: 1vw;
+    font-family: "Inter-Regular";
+    padding-top: 0.5vw;
+}
+ol, ul {
+    font-family: "Inter-Regular";
+}
+.material-list {
+    font-size: 1vw;
+}
+.boldStart {
+    font-size: 1vw;
+    font-family: "Inter-Black";
+
 }
