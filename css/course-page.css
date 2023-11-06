@@ -19,7 +19,7 @@
     margin: auto;
     width: 85%;
     min-height: 100vh;
-    background-color: rgba(217, 217, 217, 0.1);
+    /* background-color: rgba(217, 217, 217, 0.1); */
 }
 
 .topic-name {
@@ -36,15 +36,16 @@
 .subtopics li {
     font-size: 1.25vw;
 }
-.subtopic a {
+.subtopic {
     text-decoration: none;
     font-size: 1.25vw;
     color: black;
     font-family: "Inter-Medium";
 }
-.subtopic a:hover {
+.subtopic:hover {
     transition: 0.25s ease-out;  
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .topic-material {
