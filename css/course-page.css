@@ -83,3 +83,16 @@ ol, ul {
     font-family: "Inter-Black";
 
 }
+
+.material-code {
+    margin-top: 1.5vw;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.2vw;
+    padding: 1vw;
+    font-family: "Consolas";
+}
+.left1 {
+    padding-left: 2vw;
+}
