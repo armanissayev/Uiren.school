@@ -17,7 +17,7 @@
 .course-content {
     padding-top: 6vw;
     margin: auto;
-    width: 85%;
+    width: 60%;
     min-height: 100vh;
     /* background-color: rgba(217, 217, 217, 0.1); */
 }
@@ -42,8 +42,7 @@
     color: black;
     font-family: "Inter-Medium";
 }
-.subtopic:hover {
-    transition: 0.25s ease-out;  
+.subtopic:hover {  
     text-decoration: underline;
     cursor: pointer;
 }
@@ -69,7 +68,7 @@
     padding-top: 1.5vw;
 }
 .material-text {
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-family: "Inter-Regular";
     padding-top: 0.5vw;
 }
@@ -77,10 +76,10 @@ ol, ul {
     font-family: "Inter-Regular";
 }
 .material-list {
-    font-size: 1vw;
+    font-size: 1.3vw;
 }
 .boldStart {
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-family: "Inter-Black";
 
 }
