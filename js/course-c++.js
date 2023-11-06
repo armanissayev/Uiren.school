@@ -8,10 +8,6 @@ function turnoff() {
     $(".Dynamic-link").css("text-decoration", "none");
     $(".STL-link").css("text-decoration", "none");
     $(".Functions-link").css("text-decoration", "none");
-
-    $(".subtopic").hover(function() {
-        $(this).css("text-decoration", e.type === "mouseenter" ? "underline" : "none")
-    });
 }
 
 $(document).on("click", ".IDE-link", function(e) {
