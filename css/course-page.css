@@ -1,17 +1,20 @@
 .content {
-    width: 100vw;
+    width: 98vw;
     min-height: 100vh;
     display: flex;
 }
 
 .roadmap {
+    /* height: */
     padding-top: 4vw;
     width: 25vw;
     background-color: rgba(217, 217, 217, 0.1);
 }
 
 .content-space {
-    width: 80vw;
+    width: 75vw;
+    padding-bottom: 3vw;
+
 }
 
 .course-content {
@@ -43,7 +46,7 @@
     font-family: "Inter-Medium";
 }
 .subtopic:hover {  
-    text-decoration: underline;
+    background-color: rgba(217, 217, 217, 0.5);
     cursor: pointer;
 }
 
@@ -95,4 +98,8 @@ ol, ul {
 }
 .left1 {
     padding-left: 2vw;
+}
+
+.Code, .Variables, .Ifelse, .Loops, .Static, .Dynamic, .STL, .Functions {
+    display: none;
 }
