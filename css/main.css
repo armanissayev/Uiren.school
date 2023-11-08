@@ -69,7 +69,27 @@ html, body {
     width: 80%;
 }
 .footer {
-    background-color: #B0B0B0;
+    background-color: rgba(217, 217, 217, 0.3);
     width: 100%;
     height: 150px;
+}
+
+.contacty {
+    width: 100%;
+    height: 10%;
+    text-align: right;
+    font-family: "Inter-Regular";
+    color: rgb(129, 129, 129);
+    margin-top: auto; 
+    margin-left: auto;
+}
+.contacty .info {
+    height: 10%;
+    margin-top: auto;
+}
+.contacty a {
+    color: rgb(129, 129, 129);
+}
+.contacty a:hover {
+    color: rgb(72, 72, 72);
 }

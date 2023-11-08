@@ -1,44 +1,50 @@
 .content {
-    width: 80vw;
-    min-height: 100vh;
-    height: 100%;
+    width: 98vw;
+    /* min-height: 100vh; */
     display: flex;
-    margin: auto;
 }
-
 .content-space {
-    width: 80vw;
-}
-
-.course-content {
     margin: auto;
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 3vw;
-    
+    width: 80vw;
     padding-bottom: 3vw;
 }
 
-.content-block {
-    display: flex;
+.course-content {
+    padding-top: 6vw;
+    margin: auto;
+    width: 90%;
+    min-height: 60vh;
+    /* background-color: rgba(217, 217, 217, 0.1); */
+}
+.section {
     width: 100%;
-    padding-top: 5vw;
+    padding-top: 2vw;
+    display: flex;
 }
-.text-area {
-    width: 40%;
-    margin: auto;
-}
-.image-area {
-    width: 40%;
-    margin: auto;
-    background-color: black;
-}
+.section-course {
+    width: 27%;
+    /* height: 100%; */
+    min-height: 5vw;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 25px;
 
-.header-text {
-    font-size: 2.5vw;
-    font-family: "Inter-Black";
 }
-.text-area .text {
+.section-name {
+    font-size: 2vw;
+    font-family: "Inter-Bold";
+}
+.course-name a {
+    text-decoration: none;
+    color: black;
     font-family: "Inter-Regular";
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+}
+.course-name a:hover {
+    text-decoration: underline;
+}
+.course-info {
+    padding-top: 1vw;
+    font-family: "Inter-Light";
 }
