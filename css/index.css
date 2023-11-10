@@ -45,4 +45,8 @@
 .image-area img {
     width: 100%;
     object-fit: cover;
+    transition: width 1s;
+}
+.image-area img:hover {
+    width: 105%;
 }

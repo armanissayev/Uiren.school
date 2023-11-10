@@ -29,7 +29,7 @@
     margin: 0 auto;
     background-color: rgba(217, 217, 217, 0.2);
     border-radius: 25px;
-
+    transition: width height 1s;
 }
 .section-name {
     font-size: 2vw;
