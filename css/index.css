@@ -29,9 +29,9 @@
     margin: auto;
 }
 .image-area {
+    height: 50%;
     width: 40%;
     margin: auto;
-    background-color: black;
 }
 
 .header-text {
@@ -41,4 +41,8 @@
 .text-area .text {
     font-family: "Inter-Regular";
     font-size: 1.2vw;
+}
+.image-area img {
+    width: 100%;
+    object-fit: cover;
 }
