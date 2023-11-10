@@ -38,6 +38,7 @@
 }
 .subtopics li {
     font-size: 1.25vw;
+    list-style: circle;
 }
 .subtopic {
     text-decoration: none;
