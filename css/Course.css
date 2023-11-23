@@ -25,10 +25,10 @@
     width: 27%;
     /* height: 100%; */
     min-height: 5vw;
-    padding: 25px;
+    padding: 1.5vw;
     margin: 0 auto;
     background-color: rgba(217, 217, 217, 0.2);
-    border-radius: 25px;
+    border-radius: 1vw;
     transition: width height 1s;
 }
 .section-name {
@@ -47,5 +47,5 @@
 .course-info {
     padding-top: 1vw;
     font-family: "Inter-Light";
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
